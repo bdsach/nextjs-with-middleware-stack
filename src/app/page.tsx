@@ -5,6 +5,8 @@ export default function Home() {
     <div>
       <h1>Home</h1>
       <a href="/login">Login</a>
+      <br />
+      <a href="/profile">/profile without userId</a>
     </div>
   );
 }

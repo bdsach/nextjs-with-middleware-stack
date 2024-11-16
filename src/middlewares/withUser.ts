@@ -6,7 +6,7 @@ export const withUser: MiddlewareFactory = (next) => {
 
     if (["/profile"]?.some((path) => pathname.startsWith(path))) {
       /**
-       * * fake credentials with cookies
+       * * fake credentials with parameter
        */
       const userId = request.nextUrl.pathname.split("/")[2];
 
